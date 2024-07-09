@@ -1,16 +1,18 @@
 {
   "name": "web.crawler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web crawler project description",
   "main": "index.js",
   "scripts": {
     "start": "node main.js",
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier --write \"**/*.js\""
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2" 
   },
   "dependencies": {
     "jsdom": "^24.1.0"
